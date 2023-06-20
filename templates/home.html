@@ -1,0 +1,58 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Disease Prediction Application</h1>
+
+    <form method="POST"  ,action="/predict">
+        <b> NO of Pregnancies :  <input type="text", name='a', placeholder="enter 1"> <br><br>
+            Glucose level :  <input type="text", name='b', placeholder="enter 2"> <br><br>
+            BloodPressure :  <input type="text", name='c', placeholder="enter 3"> <br><br>
+            SkinThickness: <input type="text", name='e', placeholder="enter 4"> <br><br><br></b>
+            Insulin: <input type="text", name='f', placeholder="enter 5"> <br><br><br></b>
+            BMI: <input type="text", name='g', placeholder="enter 6"> <br><br><br></b>
+            DiabetesPedigreeFunction: <input type="text", name='h', placeholder="enter 7"> <br><br><br></b>
+            Age: <input type="text", name='i', placeholder="enter 8"> <br><br><br></b>
+            <input type="submit" , value='predict!' >
+    </form>
+    
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="static\style.css">
+
+    <title>Disease Prediction Application</title>
+    <script>
+        function toggleDarkMode() {
+          document.body.classList.toggle('dark-mode');
+        }
+    </script>
+</head>
+<body bgcolor="#a3cfb4">
+    <h1>Diabetes Prediction Application</h1>
+    <!-- <button onclick="toggleDarkMode()">Toggle Dark Mode</button> -->
+
+    <form method="POST" action="/predict">
+        <b>NO of Pregnancies: <input type="text" name="a" placeholder="Enter 1"><br><br>
+            Glucose level: <input type="text" name="b" placeholder="Enter 2"><br><br>
+            Blood Pressure: <input type="text" name="c" placeholder="Enter 3"><br><br>
+            Skin Thickness: <input type="text" name="d" placeholder="Enter 4"><br><br>
+            Insulin: <input type="text" name="e" placeholder="Enter 5"><br><br>
+            BMI: <input type="text" name="f" placeholder="Enter 6"><br><br>
+            Diabetes Pedigree Function: <input type="text" name="g" placeholder="Enter 7"><br><br>
+            Age: <input type="text" name="h" placeholder="Enter 8"><br><br></b>
+            <input type="submit" value="Predict">
+    </form>
+</body>
+
+</html>
